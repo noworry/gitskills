@@ -1,4 +1,4 @@
 # Articles
-- [Java 8 ÌØĞÔ ¨C ÖÕ¼«ÊÖ²á](http://ifeve.com/java-8-features-tutorial/)
-- [Java 8 Features Tutorial ¨C The ULTIMATE Guide](https://www.javacodegeeks.com/2014/05/java-8-features-tutorial.html)
-- [Introduction to Functional Interfaces ¨C A concept recreated in Java 8](https://www.javacodegeeks.com/2013/03/introduction-to-functional-interfaces-a-concept-recreated-in-java-8.html)
+- [Java 8 ç‰¹æ€§ â€“ ç»ˆææ‰‹å†Œ](http://ifeve.com/java-8-features-tutorial/)
+- [Java 8 Features Tutorial â€“ The ULTIMATE Guide](https://www.javacodegeeks.com/2014/05/java-8-features-tutorial.html)
+- [Introduction to Functional Interfaces â€“ A concept recreated in Java 8](https://www.javacodegeeks.com/2013/03/introduction-to-functional-interfaces-a-concept-recreated-in-java-8.html)
