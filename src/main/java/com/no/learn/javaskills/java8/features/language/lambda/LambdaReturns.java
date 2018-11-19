@@ -1,4 +1,4 @@
-package com.no.learn.javaskills.java8.features.lambda;
+package com.no.learn.javaskills.java8.features.language.lambda;
 
 import java.util.Arrays;
 import java.util.Comparator;

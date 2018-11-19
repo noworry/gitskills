@@ -2,6 +2,7 @@ package com.no.learn.javaskills.java8.features;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.function.Supplier;
 
 import com.no.learn.javaskills.java8.features.commons.Aspect;
 import com.no.learn.javaskills.java8.features.commons.FeatureType;
@@ -19,12 +20,7 @@ public class BaseFeature implements Feature {
 
     protected Map<String, FeatureDemo> demos = new LinkedHashMap<>();
 
-    public void addDemos(FeatureDemo featureDemo) {
-        this.demos.put(featureDemo.identity(), featureDemo);
-    }
-
     @Override
-
     public Aspect aspect() {
         return featureType.getAspect();
     }
@@ -32,6 +28,12 @@ public class BaseFeature implements Feature {
     @Override
     public FeatureType type() {
         return featureType;
+    }
+
+    @Override
+    public void addDemo(Supplier<FeatureDemo> supplier) {
+        FeatureDemo featureDemo = supplier.get();
+        this.demos.put(featureDemo.identity(), featureDemo);
     }
 
     @Override
