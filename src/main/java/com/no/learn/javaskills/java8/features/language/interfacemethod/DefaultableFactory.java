@@ -1,4 +1,4 @@
-package com.no.learn.javaskills.java8.features.interfacemethod;
+package com.no.learn.javaskills.java8.features.language.interfacemethod;
 
 import java.util.function.Supplier;
 

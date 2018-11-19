@@ -1,4 +1,4 @@
-package com.no.learn.javaskills.java8.features.functional;
+package com.no.learn.javaskills.java8.features.language.functional;
 
 import com.no.learn.javaskills.java8.features.FeatureDemo;
 

@@ -6,7 +6,12 @@ package com.no.learn.javaskills.java8.features.commons;
 public enum FeatureType {
     LAMBDA(Aspect.LANGUAGE),
     FUNCTIONAL_INTERFACE(Aspect.LANGUAGE),
-    INTERFACE_METHOD(Aspect.LANGUAGE);
+    INTERFACE_METHOD(Aspect.LANGUAGE),
+    METHOD_REFERENCE(Aspect.LANGUAGE),
+    REPEATING_ANNOTATION(Aspect.LANGUAGE),
+    BETTER_TYPE_REFERENCE(Aspect.LANGUAGE),
+    EXTENDED_ANNOTATION(Aspect.LANGUAGE),
+    PARAMETER_NAME(Aspect.COMPILER);
 
     private Aspect aspect;
 

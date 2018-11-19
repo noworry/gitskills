@@ -20,13 +20,7 @@ public class BaseFeature implements Feature {
 
     protected Map<String, FeatureDemo> demos = new LinkedHashMap<>();
 
-    public void addDemos(Supplier<FeatureDemo> supplier) {
-        FeatureDemo featureDemo = supplier.get();
-        this.demos.put(featureDemo.identity(), featureDemo);
-    }
-
     @Override
-
     public Aspect aspect() {
         return featureType.getAspect();
     }
@@ -34,6 +28,12 @@ public class BaseFeature implements Feature {
     @Override
     public FeatureType type() {
         return featureType;
+    }
+
+    @Override
+    public void addDemo(Supplier<FeatureDemo> supplier) {
+        FeatureDemo featureDemo = supplier.get();
+        this.demos.put(featureDemo.identity(), featureDemo);
     }
 
     @Override

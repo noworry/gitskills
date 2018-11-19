@@ -1,4 +1,4 @@
-package com.no.learn.javaskills.java8.features.functional;
+package com.no.learn.javaskills.java8.features.language.functional;
 
 /**
  * @author zyr created on 2018/11/5.
